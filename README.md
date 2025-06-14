@@ -49,3 +49,31 @@ rag-frs-generator/
 ```bash
 streamlit run app.py
 ```
+
+Then:
+
+### Upload or place your existing FRS and Design Documents into the pdfs/ folder.
+
+### Choose the type of document you want to generate (FRS or Design Document).
+
+### Enter your project description.
+
+### Click Generate Document — the app will use retrieved examples and LLM to create a structured, professional doc.
+
+### 📥 Download the result as a .docx file.
+
+### python-docx – Save generated text as .docx Word documents
+
+## 🧰 Tech Stack
+
+### LangChain – For chaining, RAG, and retrieval
+
+### FAISS – Vector store for document search
+
+### HuggingFace Embeddings – Semantic embeddings for PDF chunks
+
+### Ollama + LLaMA3 – Local language model for generation
+
+### Streamlit – UI for interacting with the system
+
+
