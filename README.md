@@ -63,7 +63,7 @@ Then:
 ### 📥 Download the result as a .docx file.
 
 ### python-docx – Save generated text as .docx Word documents
-
+---
 ## 🧰 Tech Stack
 
 ### LangChain – For chaining, RAG, and retrieval
@@ -76,4 +76,18 @@ Then:
 
 ### Streamlit – UI for interacting with the system
 
+---
+
+## 📂 Output Example
+
+The app generates and saves documents like:
+
+```yaml
+Copy
+Edit
+Generated_Document.docx
+├── Heading: Functional Requirement Specification
+├── Sections: Introduction, Purpose, Scope, ...
+
+```
 
