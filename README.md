@@ -37,6 +37,8 @@ cd rag-frs-generator
 # Install Python packages
 pip install -r requirements.txt
 ```
+---
+
 ## 📚 Required Directory Structure
 ```bash
 rag-frs-generator/
@@ -44,6 +46,8 @@ rag-frs-generator/
 │   ├── Sample_FRS.pdf
 │   └── Sample_Design_Doc.pdf
 ```
+---
+
 ## 🧠 Usage
 ### Run the Streamlit app:
 ```bash
@@ -58,23 +62,23 @@ Then:
 
 ### Enter your project description.
 
-### Click Generate Document — the app will use retrieved examples and LLM to create a structured, professional doc.
+- Click Generate Document — the app will use retrieved examples and LLM to create a structured, professional doc.
 
-### 📥 Download the result as a .docx file.
+- 📥 Download the result as a .docx file.
 
-### python-docx – Save generated text as .docx Word documents
+- python-docx – Save generated text as .docx Word documents
 ---
 ## 🧰 Tech Stack
 
-### LangChain – For chaining, RAG, and retrieval
+- LangChain – For chaining, RAG, and retrieval
 
-### FAISS – Vector store for document search
+- FAISS – Vector store for document search
 
-### HuggingFace Embeddings – Semantic embeddings for PDF chunks
+- HuggingFace Embeddings – Semantic embeddings for PDF chunks
 
-### Ollama + LLaMA3 – Local language model for generation
+- Ollama + LLaMA3 – Local language model for generation
 
-### Streamlit – UI for interacting with the system
+- Streamlit – UI for interacting with the system
 
 ---
 
