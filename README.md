@@ -36,3 +36,15 @@ cd rag-frs-generator
 
 # Install Python packages
 pip install -r requirements.txt
+
+## 📚 Required Directory Structure
+```bash
+rag-frs-generator/
+├── pdfs/
+│   ├── Sample_FRS.pdf
+│   └── Sample_Design_Doc.pdf
+
+## 🧠 Usage
+### Run the Streamlit app:
+```bash
+streamlit run app.py
